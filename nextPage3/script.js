@@ -1,4 +1,4 @@
-import {StartUp_Examples} from '/startUpData.js';
+import {StartUp_Examples} from './StartUpData.js';
 
 
 const cardsGrid = document.querySelector('.cards-grid');

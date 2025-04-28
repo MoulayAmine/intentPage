@@ -1,4 +1,4 @@
-import {StatUp_Ideas} from '/startUpData.js';
+import {StatUp_Ideas} from './startUpData.js';
 
 
 const cardsGrid = document.querySelector('.cards-grid');

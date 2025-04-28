@@ -1,4 +1,4 @@
-import {Formations} from '/startUpData.js';
+import {Formations} from './startUpData.js';
 
 
 const cardsGrid = document.querySelector('.cards-grid');
