@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding-bottom: 100px; /* Use padding instead of margin for consistent space */
+}
+
+section{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    column-gap: 300px;
+    row-gap: 200px;
+    margin: 100px;
+}
+
+img {
+    max-width: 100%;
+  }
+  
+  .card {
+    transition: transform 0.3s ease, border 0.3s ease;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px solid transparent;
+  }
+  
+  .card-header {
+    height: 200px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card-header img {
+    object-fit: contain;
+    height: 100%;
+    width: 70%;
+    border-radius: 30%;
+  }
+  
+  .card-content {
+    background-color: #fff;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .card-title {
+    height: 20px;
+    margin: 0;
+    padding-bottom: 50px;
+    padding-top: 80px;
+  }
+  
+  .card-excerpt {
+    color: #777;
+    margin: 10px 0 20px;
+  }
+  
+  .author {
+    display: flex;
+  }
+  
+  .profile-img {
+    border-radius: 50%;
+    overflow: hidden;
+    height: 40px;
+    width: 40px;
+  }
+  
+  .author-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10px;
+    width: 100px;
+  }
+  
+  .author-info small {
+    color: #aaa;
+    margin-top: 5px;
+  }
+  
+  .animated-bg {
+    background-image: linear-gradient(
+      to right,
+      #f6f7f8 0%,
+      #edeef1 10%,
+      #f6f7f8 20%,
+      #f6f7f8 100%
+    );
+    background-size: 200% 100%;
+    animation: bgPos 1s linear infinite;
+  }
+  
+  .animated-bg-text {
+    border-radius: 50px;
+    display: inline-block;
+    margin: 0;
+    height: 10px;
+    width: 100%;
+  }
+  
+  @keyframes bgPos {
+    0% {
+      background-position: 50% 0;
+    }
+  
+    100% {
+      background-position: -150% 0;
+    }
+  }
+
+  .montserrat-heading {
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .card[data-category="Agriculture de Précision"]:hover {
+    border-color: #476930;
+  }
+  .card[data-category="Technologie"]:hover {
+    border-color: #0a84ff;
+  }
+  .card[data-category="e-commerce"]:hover {
+    border-color: #2A9D8F;
+  }
+  .card[data-category="Environnement"]:hover {
+    border-color: #A26769;
+  }
+  .card[data-category="Éducation"]:hover {
+    border-color: #F9C74F;
+  }
+  .card[data-category="Santé et bien être"]:hover {
+    border-color: #E63946;
+  }
+
+  .card:hover {
+    transform: scale(1.03);
+  }
+
+
+  @media (max-width: 480px) {
+    section{
+      grid-template-columns: 1fr;
+  }
+  }
+
+/*
+  .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+*/
