@@ -190,6 +190,11 @@ img {
     }
   }
 
+  .card.active {
+    transform: scale(1.03);
+    border-color: var(--category-color);
+  }
+  
 /*
   .card{
     display: flex;
