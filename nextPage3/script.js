@@ -125,7 +125,7 @@ function loadStartupsByCategory(category) {
     });
   }
 
-  card.addEventListener('click', function () {
+  card.addEventListener('touchstart', function () {
     document.querySelectorAll('.card').forEach(c => c.classList.remove('active'));
   
     // Get color based on category
@@ -148,5 +148,7 @@ function loadStartupsByCategory(category) {
     card.style.setProperty('--category-color', colors[category] || '#000');
     card.classList.add('active');
   
-    loadStartupsByCategory(category);
-  });
+    setTimeout(() => {
+      loadStartupsByCategory(category);
+    }, 300);
+  }, { passive: true });

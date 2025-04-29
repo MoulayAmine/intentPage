@@ -204,6 +204,7 @@ img {
   .card.active {
     transform: scale(1.03);
     border-color: var(--category-color);
+    transition: transform 0.3s ease, border 0.3s ease;
   }
   
 /*
