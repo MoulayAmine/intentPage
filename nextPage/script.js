@@ -126,30 +126,31 @@ function loadStartupsByCategory(category) {
     });
   }
 
-  card.addEventListener('touchstart', function () {
-    document.querySelectorAll('.card').forEach(c => c.classList.remove('active'));
+  document.querySelectorAll('.card').forEach(card => {
+    card.addEventListener('touchstart', function () {
   
-    // Get color based on category
-    const category = card.getAttribute('data-category');
-    const colors = {
-      'Agriculture': '#476930',
-      'Technologie': '#0a84ff',
-      'e-commerce': '#2A9D8F',
-      'Environnement': '#A26769',
-      'Éducation': '#F9C74F',
-      'Médical': '#E63946',
-      'Finance': '#7851A9',
-      'Transport': '#E97451',
-      'Industries': '#2C3539',
-      'Énergie et Environnement': '#43B3AE',
-      'Support aux Startups' : '#005B5D',
-      'Santé et bien être' : '#E63946'
-    };
-  
-    card.style.setProperty('--category-color', colors[category] || '#000');
-    card.classList.add('active');
-  
-    setTimeout(() => {
-      loadStartupsByCategory(category);
-    }, 300);
-  }, { passive: true });
+      // Get color based on category
+      const category = card.getAttribute('data-category');
+      const colors = {
+        'Agriculture': '#476930',
+        'Technologie': '#0a84ff',
+        'e-commerce': '#2A9D8F',
+        'Environnement': '#A26769',
+        'Éducation': '#F9C74F',
+        'Médical': '#E63946',
+        'Finance': '#7851A9',
+        'Transport': '#E97451',
+        'Industries': '#2C3539',
+        'Énergie et Environnement': '#43B3AE',
+        'Support aux Startups' : '#005B5D',
+        'Santé et bien être' : '#E63946'
+      };
+    
+      card.style.setProperty('--category-color', colors[category] || '#000');
+      card.classList.add('active');
+    
+      setTimeout(() => {
+        loadStartupsByCategory(category);
+      }, 300);
+    }, { passive: true }); 
+  });
