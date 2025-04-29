@@ -156,9 +156,38 @@ img {
 
 
   @media (max-width: 480px) {
-    section{
+    section {
       grid-template-columns: 1fr;
-  }
+      margin: 20px;           
+      column-gap: 0;          
+      row-gap: 40px;          
+    }
+  
+    .card {
+      margin: 0 auto;
+      width: 100%;
+      max-width: 95%;
+    }
+  
+    .card-header {
+      height: auto;
+      padding: 15px;
+    }
+  
+    .card-header img {
+      width: 100%;              
+      height: auto;             
+      border-radius: 20%;       
+    }
+  
+    .card-title {
+      padding: 30px 0 20px;
+      font-size: 1.2rem;
+    }
+  
+    .card-content {
+      padding: 20px;
+    }
   }
 
 /*
