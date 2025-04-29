@@ -127,9 +127,10 @@ function loadStartupsByCategory(category) {
   }
 
   document.querySelectorAll('.card').forEach(card => {
-    card.addEventListener('touchstart', function () {
-  
-      // Get color based on category
+    card.addEventListener('touchstart', function (e) {
+
+      e.preventDefault();
+      
       const category = card.getAttribute('data-category');
       const colors = {
         'Agriculture': '#476930',
@@ -149,8 +150,11 @@ function loadStartupsByCategory(category) {
       card.style.setProperty('--category-color', colors[category] || '#000');
       card.classList.add('active');
     
-      setTimeout(() => {
-        loadStartupsByCategory(category);
-      }, 300);
-    }, { passive: true }); 
+      requestAnimationFrame(() => {
+        setTimeout(() => {
+          loadStartupsByCategory(category);
+        }, 300);
+      });
+
+    }, { passive: false }); 
   });
