@@ -90,14 +90,13 @@ function loadStartupsByCategory(category) {
 
   // Add the filtered cards to the page
   filteredStartups.forEach((value) => {
-    document.querySelector('.cards-grid').innerHTML += `<div class="card" data-category="${value.category}">
+    document.querySelector('.cards-grid').innerHTML += `<div class="card-nxt" data-category="${value.category}">
             
-      
+            <div class="card-header-nxt animated-bg header hidden-text" style="visibility: hidden">
+             <img src="img/${value.title}.png" alt="NO IMAGE AVAILABLE" />
+            </div>
             <div class="card-content">
                 <div class="hidden-text" style="visibility: hidden">
-                    <div class="card-header animated-bg header">
-                      <img src="img/${value.category}.png" alt="NO IMAGE AVAILABLE" />
-                    </div>
                     <h1 class="card-title title montserrat-heading">${value.title}</h1>
                 </div>
                 <div class="animated-skeleton">
@@ -112,17 +111,52 @@ function loadStartupsByCategory(category) {
             `;
     });
   
-    document.querySelectorAll(".card").forEach((card) => {
+    document.querySelectorAll(".card-nxt").forEach((card) => {
       const animated_bgs = card.querySelectorAll('.animated-bg');
       const animated_bg_texts = card.querySelectorAll('.animated-bg-text');
-      const hiddenText = card.querySelector('.hidden-text');
+      const hiddenText = card.querySelectorAll('.hidden-text');
       const skeleton = card.querySelector('.animated-skeleton');
       setTimeout(() => {
         animated_bgs.forEach(bg => bg.classList.remove('animated-bg'));
         animated_bg_texts.forEach(bg => bg.classList.remove('animated-bg-text'));
         if (skeleton) skeleton.remove();
-        if (hiddenText) hiddenText.style.visibility = 'visible';
+        hiddenText.forEach(HT=>{
+          if (HT) HT.style.visibility = 'visible';
+        });
       }, 2500);
+    });
+
+    document.querySelectorAll('.card-nxt').forEach(card => {
+      card.addEventListener('touchstart', function (e) {
+  
+        e.preventDefault();
+        
+        const category = card.getAttribute('data-category');
+        const colors = {
+          'Agriculture': '#476930',
+          'Technologie': '#0a84ff',
+          'e-commerce': '#2A9D8F',
+          'Environnement': '#A26769',
+          'Éducation': '#F9C74F',
+          'Médical': '#E63946',
+          'Finance': '#7851A9',
+          'Transport': '#E97451',
+          'Industries': '#2C3539',
+          'Énergie et Environnement': '#43B3AE',
+          'Support aux Startups' : '#005B5D',
+          'Santé et bien être' : '#E63946'
+        };
+      
+        card.style.setProperty('--category-color', colors[category] || '#000');
+        card.classList.add('active');
+      
+        requestAnimationFrame(() => {
+          setTimeout(() => {
+            loadStartupsByCategory(category);
+          }, 300);
+        });
+  
+      }, { passive: false }); 
     });
   }
 

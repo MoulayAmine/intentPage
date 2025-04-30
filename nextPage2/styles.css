@@ -25,6 +25,7 @@ img {
     max-width: 100%;
   }
   
+  .card-nxt,
   .card {
     transition: transform 0.3s ease, border 0.3s ease;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
@@ -130,14 +131,17 @@ img {
     font-style: normal;
   }
 
+  .card-nxt[data-category="Support aux Startups"]:hover,
   .card[data-category="Support aux Startups"]:hover {
     border-color: #005B5D;
   }
 
+  .card-nxt[data-category="e-commerce"]:hover,
   .card[data-category="e-commerce"]:hover {
     border-color: #2A9D8F;
   }
 
+  .card-nxt[data-category="Éducation"]:hover,
   .card[data-category="Éducation"]:hover {
     border-color: #F9C74F;
   }
@@ -153,18 +157,21 @@ img {
       column-gap: 0;          
       row-gap: 40px;          
     }
-  
+    
+    .card-nxt,
     .card {
       margin: 0 auto;
       width: 100%;
       max-width: 95%;
     }
   
+    .card-header-nxt,
     .card-header {
       height: auto;
       padding: 15px;
     }
-  
+
+    .card-header-nxt img,
     .card-header img {
       width: 100%;              
       height: auto;             
@@ -181,10 +188,23 @@ img {
     }
   }
 
+  .card-nxt.active,
   .card.active {
     transform: scale(1.03);
     border-color: var(--category-color);
     transition: transform 0.3s ease, border 0.3s ease;
+  }
+
+
+  
+  .card-header-nxt {
+    height: 200px;
+  }
+  
+  .card-header-nxt img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
   }
   
 /*

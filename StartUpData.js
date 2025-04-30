@@ -25,7 +25,7 @@
     },
     {
         "category": "Agriculture de Précision",
-        "title": "Systèmes de surveillance des cultures basés sur l'IoT et l'IA",
+        "title": "Surveillance agricole IoT & IA",
         "description": "Utilisation de capteurs (humidité du sol, température, nutriments), de drones et de l'analyse d'images par IA pour fournir aux agriculteurs des données en temps réel sur l'état de leurs cultures, la détection précoce des maladies et des ravageurs, et l'optimisation de l'irrigation et de la fertilisation.",
         "details": "Ce projet de startup vise à révolutionner l'agriculture en Algérie grâce à des systèmes de surveillance intelligents des cultures. En déployant un réseau de capteurs IoT (Internet des Objets) dans les parcelles agricoles, la startup collectera en temps réel des données cruciales telles que l'humidité du sol, la température, les niveaux de nutriments et d'autres paramètres environnementaux. Ces données seront ensuite analysées par des algorithmes d'Intelligence Artificielle (IA) pour fournir aux agriculteurs des informations précises et exploitables. Ils pourront ainsi détecter précocement les maladies et les ravageurs, optimiser l'irrigation et la fertilisation, et prendre des décisions éclairées pour améliorer les rendements, réduire les coûts et promouvoir une agriculture plus durable et efficace.",
         "keywords": ["IoT", "IA", "agriculture", "capteurs", "drones"],
@@ -33,7 +33,7 @@
       },
       {
         "category": "Agriculture de Précision",
-        "title": "Plateformes de suivi et d'optimisation de l'utilisation de l'eau dans l'agriculture",
+        "title": "Suivi intelligent de l'eau agricole",
         "description": "",
         "details": "Cette startup algérienne vise à aider les agriculteurs à mieux gérer l'eau grâce à des plateformes technologiques. En utilisant des capteurs dans les champs et des logiciels accessibles, les agriculteurs suivront en direct leurs besoins en eau et recevront des conseils personnalisés pour irriguer de manière optimale. L'objectif est de réduire le gaspillage d'eau, de diminuer les coûts et de rendre l'agriculture algérienne plus durable face au manque d'eau.",
         "keywords": ["eau", "agriculture", "capteurs", "optimisation"],
@@ -41,7 +41,7 @@
       },
       {
         "category": "Santé et bien être",
-        "title": "Solutions de gestion administrative pour les cliniques et les hôpitaux",
+        "title": "Gestion admin. pour cliniques & hôpitaux",
         "description": "Logiciels pour optimiser la gestion des stocks de médicaments, la facturation, la gestion du personnel et la planification des ressources.",
         "details": "Cette startup algérienne propose des logiciels pour simplifier la gestion administrative des cliniques et hôpitaux. Ces outils numériques intégreront la gestion des stocks, la facturation, les ressources humaines, les rendez-vous et l'analyse de données. L'objectif est d'améliorer l'efficacité des établissements de santé, de réduire les coûts et de permettre au personnel médical de se concentrer sur les patients.",
         "keywords": ["santé", "gestion", "cliniques", "logiciel", "facturation"],
@@ -49,7 +49,7 @@
       },
       {
         "category": "Santé et bien être",
-        "title": "Solutions de gestion des stocks et de prédiction de la demande pour les pharmacies",
+        "title": "Gestion & prévision pour pharmacies",
         "description": "Optimiser l'approvisionnement en médicaments et éviter les ruptures de stock.",
         "details": "Cette startup algérienne propose des logiciels intelligents pour aider les pharmacies à mieux gérer leurs stocks de médicaments et à anticiper la demande. En analysant les données de vente et d'autres facteurs, le système alertera sur les bas stocks et suggérera les commandes optimales, évitant ainsi les ruptures et le gaspillage pour améliorer l'accès aux médicaments.",
         "keywords": ["pharmacie", "stocks", "prédiction", "logiciel", "médicaments"],
@@ -57,7 +57,7 @@
       },
       {
         "category": "Santé et bien être",
-        "title": "Outil IA d'Aide à la Décision Clinique et de Suivi Patient à Distance",
+        "title": "IA pour décision clinique & suivi à distance",
         "description": "Ce chatbot intelligent assisterait les médecins en temps réel lors des soins et opérations en fournissant des informations critiques et en aidant à la documentation, tout en assurant un suivi personnalisé des patients à domicile avec des réponses, des rappels, un soutien de base et des conseils de santé adaptés à leur situation.",
         "details": "La réalisation de ce chatbot médical en Algérie nécessitera le développement d'une IA performante capable de comprendre le langage naturel pour assister les médecins en temps réel avec des informations cruciales et aider à la documentation. Simultanément, il faudra intégrer des fonctionnalités pour un suivi personnalisé des patients à domicile, offrant des réponses, des rappels et des conseils de santé adaptés. Enfin, la sécurité des données et la conformité aux réglementations médicales algériennes seront primordiales à chaque étape du développement et du déploiement.",
         "keywords": ["IA", "santé", "chatbot", "télémédecine", "suivi patient"],
@@ -65,7 +65,7 @@
       },
       {
         "category": "Éducation",
-        "title": "LMS interactif et adapté au contexte algérien",
+        "title": "LMS interactif algérien",
         "description": "Développer une plateforme d'apprentissage en ligne riche en fonctionnalités (quiz, forums, devoirs, suivi des progrès) et localisée en arabe et en français, tenant compte des programmes scolaires algériens et des spécificités culturelles.",
         "details": "",
         "keywords": ["LMS", "éducation", "plateforme", "apprentissage", "algérien"],
@@ -73,7 +73,7 @@
       },
       {
         "category": "Éducation",
-        "title": "Plateformes de cours en ligne spécialisés",
+        "title": "Plateformes e-learning spécialisées",
         "description": "Offrir des cours de qualité dans des domaines spécifiques (langues étrangères, programmation, compétences professionnelles) animés par des instructeurs qualifiés, avec des certifications reconnues.",
         "details": "Pour lancer une plateforme de cours en ligne spécialisés en Algérie, il faut identifier les domaines demandés, trouver des professeurs experts et créer des cours de qualité avec des certifications reconnues. Une plateforme web facile à utiliser, des paiements sécurisés et un bon support sont essentiels, tout comme des partenariats locaux pour la crédibilité des certifications.",
         "keywords": ["cours en ligne", "certification", "éducation", "enseignement", "compétences"],
@@ -81,7 +81,7 @@
       },
       {
         "category": "Éducation",
-        "title": "Applications mobiles éducatives gamifiées",
+        "title": "Applis ludo-éducatives",
         "description": "Créer des applications attrayantes et amusantes pour l'apprentissage de religion, des langues, des mathématiques, des sciences, etc., en utilisant des mécanismes pour motiver les apprenants.",
         "details": "Créer des applications éducatives gamifiées en Algérie nécessite une équipe d'éducateurs, de développeurs et de designers. Le contenu doit être adapté aux programmes locaux en arabe, et des tests avec les utilisateurs garantiront l'efficacité et l'attrait des applications.",
         "keywords": ["application", "gamification", "éducation", "apprentissage", "mobile"],
@@ -89,7 +89,7 @@
       },
       {
         "category": "Éducation",
-        "title": "Plateformes de création de contenu éducatif interactif",
+        "title": "Outils de création éducative interactive",
         "description": "Offrir aux enseignants des outils simples pour créer leurs propres leçons interactives, quiz et simulations.",
         "details": "Créer une plateforme algérienne pour que les enseignants fassent des leçons interactives facilement nécessite une interface simple. L'IA pourrait aider en suggérant des améliorations, en créant des questions de quiz, en adaptant la difficulté et en analysant l'engagement des élèves. Des modèles basés sur les programmes locaux faciliteraient l'utilisation, et l'intégration aux plateformes existantes aiderait à son adoption.",
         "keywords": ["enseignants", "contenu interactif", "quiz", "IA", "éducation"],
@@ -105,7 +105,7 @@
       },
       {
         "category": "Environnement",
-        "title": "Installation et maintenance de systèmes solaires photovoltaïques pour les particuliers et les entreprises",
+        "title": "Solutions solaires pour particuliers & entreprises",
         "description": "Offrir des solutions clés en main pour l'adoption de l'énergie solaire.",
         "details": "L'idée est de proposer d'installer des systèmes solaires photovoltaïques pour les maisons et les entreprises en offrant un service complet : évaluation, conception, installation, maintenance et suivi. Pour réussir, elle devra s'équiper de matériel de qualité, former des installateurs, simplifier les démarches administratives et proposer des financements intéressants, tout en informant sur les avantages du solaire et en assurant un bon service après-vente.",
         "keywords": ["énergie solaire", "photovoltaïque", "installation", "maintenance", "écologie"],
@@ -113,7 +113,7 @@
       },
       {
         "category": "Environnement",
-        "title": "Solutions d'optimisation de la consommation énergétique pour les bâtiments",
+        "title": "Optimisation énergétique des bâtiments",
         "description": "Utilisation de l'IoT et de l'IA pour gérer intelligemment l'éclairage, le chauffage et la climatisation.",
         "details": "L'idée est de mettre en place un système intelligent de gestion énergétique pour les bâtiments en Algérie. Des capteurs connectés (IoT) collecteront des informations sur l'éclairage, le chauffage et la climatisation, qui seront ensuite analysées par l'intelligence artificielle (IA). Cette analyse permettra d'automatiser et d'optimiser l'utilisation de ces systèmes, réduisant ainsi la consommation d'énergie, améliorant le confort des occupants et contribuant à une gestion énergétique plus durable dans le pays, en collaboration avec les professionnels du secteur de la construction.",
         "keywords": ["énergie", "IA", "IoT", "bâtiments", "efficacité énergétique"],
@@ -121,7 +121,7 @@
       },
       {
         "category": "Environnement",
-        "title": "Solutions de captation et de stockage de l'eau de pluie",
+        "title": "Captage & stockage d’eau de pluie",
         "description": "",
         "details": "L'idée est de proposer des systèmes pour récupérer et stocker l'eau de pluie en Algérie, adaptés aux maisons, immeubles et fermes. Cela comprend la conception de collecteurs, de filtres et de réservoirs solides et abordables. Le but est d'encourager l'utilisation de l'eau de pluie pour des usages non-potables, de rendre ces systèmes accessibles et de travailler avec les autorités pour une meilleure gestion de l'eau dans le pays.",
         "keywords": ["eau de pluie", "stockage", "environnement", "récupération", "réservoir"],
@@ -129,7 +129,7 @@
       },
       {
         "category": "Environnement",
-        "title": "Services de détection et de réparation des fuites dans les réseaux de distribution d'eau",
+        "title": "Services anti-fuites réseaux d’eau",
         "description": "",
         "details": "L'idée est de créer une entreprise en Algérie spécialisée dans la recherche et la réparation rapide et efficace des fuites d'eau dans les réseaux de distribution. Cette entreprise utilisera des technologies avancées pour localiser précisément les fuites et emploiera des techniciens qualifiés pour les réparer durablement, en collaborant avec les entreprises de distribution d'eau pour réduire les pertes et optimiser l'utilisation de l'eau.",
         "keywords": ["fuites d'eau", "distribution", "détection", "réparation", "eau"],
@@ -137,7 +137,7 @@
       },
       {
         "category": "e-commerce",
-        "title": "Solutions de logistique et de livraison pour l'e-commerce",
+        "title": "Logistique & livraison e-commerce",
         "description": "Développer des réseaux de distribution efficaces et fiables, offrant des options de livraison rapide et un suivi en temps réel pour les commerçants en ligne.",
         "details": "Pour améliorer la livraison pour l'e-commerce en Algérie, il faut créer des centres de distribution bien placés, utiliser une technologie pour gérer les commandes et les itinéraires, suivre les colis en direct et informer les clients. Il faut aussi des livreurs fiables et des solutions pour les retours, en travaillant avec les sites de vente en ligne et les commerçants.",
         "keywords": ["logistique", "livraison", "e-commerce", "Algérie", "technologie"],
@@ -145,7 +145,7 @@
       },
       {
         "category": "e-commerce",
-        "title": "Plateformes de création de boutiques en ligne faciles à utiliser",
+        "title": "Création de boutiques en ligne faciles",
         "description": "Fournir aux petites entreprises et aux entrepreneurs des outils simples pour créer et gérer leur propre boutique en ligne sans nécessiter de compétences techniques avancées.",
         "details": "Cette startup algérienne vise à simplifier la création de boutiques en ligne pour les petites entreprises et entrepreneurs en offrant une plateforme intuitive avec des modèles personnalisables, la gestion des produits et des commandes, des options de paiement et de livraison locales, et des outils marketing de base, le tout en arabe et en français avec un support dédié et des partenariats logistiques pour faciliter le développement du commerce électronique local.",
         "keywords": ["plateforme", "création de boutique", "e-commerce", "entrepreneurs", "Algérie"],
@@ -153,7 +153,7 @@
       },
       {
         "category": "e-commerce",
-        "title": "Solutions de personnalisation de l'expérience client pour l'e-commerce",
+        "title": "Personnalisation expérience client e-commerce",
         "description": "Utiliser l'IA pour analyser le comportement des clients et proposer des recommandations de produits personnalisées, améliorant ainsi l'engagement et les ventes.",
         "details": "L'idée est de développer une solution d'intelligence artificielle (IA) pour personnaliser l'expérience client sur les plateformes de commerce électronique en Algérie. En analysant le comportement des utilisateurs (navigation, achats passés, préférences), l'IA proposera des recommandations de produits sur mesure, visant à augmenter l'engagement des clients, à stimuler les ventes et à renforcer leur fidélité en leur offrant une expérience d'achat plus pertinente et individualisée. La réalisation impliquera la création d'algorithmes d'IA efficaces et leur intégration aux sites e-commerce existants, tout en assurant la protection des données personnelles.",
         "keywords": ["IA", "personnalisation", "e-commerce", "Algérie", "expérience client"],
@@ -162,16 +162,6 @@
   ]
 
   export const StartUp_Examples = [
-    {
-      "category": "Technologie",
-      "title": "Labla bee",
-      "description": "EdTech spécialisée dans les laboratoires d'apprentissage virtuels pour les réseaux avancés, la 5G, le cloud et l'IA.",
-      "details": "Labla bee, fondée en 2021 par Samir Tahraoui et Mahmoud Sid Ali Mobarek, développe des laboratoires virtuels pour former aux technologies de pointe comme la 5G, le cloud computing et l'intelligence artificielle. L'objectif est de combler le déficit de compétences dans les télécoms sans nécessiter d'équipement physique.",
-      "founders": ["Samir Tahraoui", "Mahmoud Sid Ali Mobarek"],
-      "founded": "2021",
-      "keywords": ["EdTech", "5G", "cloud", "intelligence artificielle", "formation", "télécommunications"],
-      "emoji": "🎓"
-    },
     {
       "category": "Technologie",
       "title": "Labla bee",
