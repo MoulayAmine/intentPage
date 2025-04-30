@@ -216,10 +216,16 @@ img {
     .card-title {
       padding: 30px 0 20px;
       font-size: 1.2rem;
+      height: auto;
+      overflow-wrap: break-word;
+      word-break: break-word;
     }
   
     .card-content {
       padding: 20px;
+      overflow: visible;
+      word-wrap: break-word;
+      word-break: break-word;
     }
   }
   

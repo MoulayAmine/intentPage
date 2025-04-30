@@ -150,7 +150,6 @@ document.querySelectorAll('.card').forEach((card) => {
       
         requestAnimationFrame(() => {
           setTimeout(() => {
-            loadStartupsByCategory(category);
           }, 300);
         });
       }, { passive: false }); 

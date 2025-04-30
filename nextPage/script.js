@@ -152,7 +152,6 @@ function loadStartupsByCategory(category) {
       
         requestAnimationFrame(() => {
           setTimeout(() => {
-            loadStartupsByCategory(category);
           }, 300);
         });
   
