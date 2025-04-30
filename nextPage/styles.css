@@ -173,7 +173,7 @@ img {
       grid-template-columns: 1fr;
       margin: 20px;           
       column-gap: 0;          
-      row-gap: 40px;          
+      row-gap: 100px;          
     }
   
     .card-nxt,
