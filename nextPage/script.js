@@ -90,7 +90,7 @@ function loadStartupsByCategory(category) {
 
   // Add the filtered cards to the page
   filteredStartups.forEach((value) => {
-    document.querySelector('.cards-grid').innerHTML += `<div class="card-nxt" data-category="${value.category}">
+    document.querySelector('.cards-grid').innerHTML += `<div class="card-nxt" data-category="${value.category}" data-title="${value.title}">
             
             <div class="card-header-nxt animated-bg header hidden-text" style="visibility: hidden">
              <img src="img/${value.title}.png" alt="NO IMAGE AVAILABLE" />
@@ -157,6 +157,21 @@ function loadStartupsByCategory(category) {
   
       }, { passive: false }); 
     });
+
+    document.querySelectorAll('.card-nxt').forEach(card => {
+      card.addEventListener('click', () => {
+        const title = card.getAttribute('data-title');
+        window.location.href = `./DescriptionPage/index.html?title=${encodeURIComponent(title)}`;
+      });
+    });
+
+    document.querySelectorAll('.card-nxt').forEach(card => {
+      card.addEventListener('touchstart', () => {
+        const title = card.getAttribute('data-title');
+        window.location.href = `./DescriptionPage/index.html?title=${encodeURIComponent(title)}`;
+      });
+    });
+
   }
 
   document.querySelectorAll('.card').forEach(card => {

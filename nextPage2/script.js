@@ -89,10 +89,10 @@ document.querySelectorAll('.card').forEach((card) => {
   
     // Add the filtered cards to the page
     filteredFormations.forEach((value) => {
-      document.querySelector('.cards-grid').innerHTML += `<div class="card-nxt" data-category="${value.category}">
+      document.querySelector('.cards-grid').innerHTML += `<div class="card-nxt" data-category="${value.category}" data-title="${value.title}">
             
-            <div class="card-header-nxt animated-bg header">
-             &nbsp;
+            <div class="card-header-nxt animated-bg hidden-text" style="visibility: hidden" >
+             <img src="img/${value.title}.png" alt="NO IMAGE AVAILABLE" />
             </div>
             <div class="card-content">
                 <div class="hidden-text" style="visibility: hidden">
@@ -113,15 +113,16 @@ document.querySelectorAll('.card').forEach((card) => {
     document.querySelectorAll(".card-nxt").forEach((card) => {
       const animated_bgs = card.querySelectorAll('.animated-bg');
       const animated_bg_texts = card.querySelectorAll('.animated-bg-text');
-      const hiddenText = card.querySelector('.hidden-text');
+      const hiddenText = card.querySelectorAll('.hidden-text');
       const skeleton = card.querySelector('.animated-skeleton');
       setTimeout(() => {
         animated_bgs.forEach(bg => bg.classList.remove('animated-bg'));
         animated_bg_texts.forEach(bg => bg.classList.remove('animated-bg-text'));
         if (skeleton) skeleton.remove();
-        if (hiddenText) hiddenText.style.visibility = 'visible';
+        hiddenText.forEach(HT=>{
+          if (HT) HT.style.visibility = 'visible';
+        });
       }, 2500);
-      
     });
 
     document.querySelectorAll('.card-nxt').forEach(card => {
@@ -154,6 +155,21 @@ document.querySelectorAll('.card').forEach((card) => {
         });
       }, { passive: false }); 
     });
+
+    document.querySelectorAll('.card-nxt').forEach(card => {
+      card.addEventListener('click', () => {
+        const title = card.getAttribute('data-title');
+        window.location.href = `./DescriptionPage/index.html?title=${encodeURIComponent(title)}`;
+      });
+    });
+
+    document.querySelectorAll('.card-nxt').forEach(card => {
+      card.addEventListener('touchstart', () => {
+        const title = card.getAttribute('data-title');
+        window.location.href = `./DescriptionPage/index.html?title=${encodeURIComponent(title)}`;
+      });
+    });
+
   }
   
 

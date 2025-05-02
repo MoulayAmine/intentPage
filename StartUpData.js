@@ -34,7 +34,7 @@
       {
         "category": "Agriculture de Précision",
         "title": "Suivi intelligent de l'eau agricole",
-        "description": "",
+        "description": "Système de gestion intelligente de l'irrigation pour économiser l'eau et maximiser les rendements agricoles.",
         "details": "Cette startup algérienne vise à aider les agriculteurs à mieux gérer l'eau grâce à des plateformes technologiques. En utilisant des capteurs dans les champs et des logiciels accessibles, les agriculteurs suivront en direct leurs besoins en eau et recevront des conseils personnalisés pour irriguer de manière optimale. L'objectif est de réduire le gaspillage d'eau, de diminuer les coûts et de rendre l'agriculture algérienne plus durable face au manque d'eau.",
         "keywords": ["eau", "agriculture", "capteurs", "optimisation"],
         "emoji": ""
@@ -67,7 +67,7 @@
         "category": "Éducation",
         "title": "LMS interactif algérien",
         "description": "Développer une plateforme d'apprentissage en ligne riche en fonctionnalités (quiz, forums, devoirs, suivi des progrès) et localisée en arabe et en français, tenant compte des programmes scolaires algériens et des spécificités culturelles.",
-        "details": "",
+        "details": "Cette plateforme LMS permettra aux élèves algériens d'apprendre en ligne avec une interface adaptée au programme national. Elle intégrera des modules interactifs comme des quiz, forums, évaluations et exercices. Les enseignants pourront suivre les progrès et adapter les contenus. La localisation en arabe et français et la compatibilité mobile seront des atouts majeurs.",
         "keywords": ["LMS", "éducation", "plateforme", "apprentissage", "algérien"],
         "emoji": ""
       },
@@ -122,7 +122,7 @@
       {
         "category": "Environnement",
         "title": "Captage & stockage d’eau de pluie",
-        "description": "",
+        "description": "Proposer des systèmes pour récupérer et utiliser l’eau de pluie de manière durable en zones urbaines et rurales.",
         "details": "L'idée est de proposer des systèmes pour récupérer et stocker l'eau de pluie en Algérie, adaptés aux maisons, immeubles et fermes. Cela comprend la conception de collecteurs, de filtres et de réservoirs solides et abordables. Le but est d'encourager l'utilisation de l'eau de pluie pour des usages non-potables, de rendre ces systèmes accessibles et de travailler avec les autorités pour une meilleure gestion de l'eau dans le pays.",
         "keywords": ["eau de pluie", "stockage", "environnement", "récupération", "réservoir"],
         "emoji": ""
@@ -130,7 +130,7 @@
       {
         "category": "Environnement",
         "title": "Services anti-fuites réseaux d’eau",
-        "description": "",
+        "description": "Détection et réparation intelligente des fuites d'eau dans les réseaux de distribution pour économiser les ressources.",
         "details": "L'idée est de créer une entreprise en Algérie spécialisée dans la recherche et la réparation rapide et efficace des fuites d'eau dans les réseaux de distribution. Cette entreprise utilisera des technologies avancées pour localiser précisément les fuites et emploiera des techniciens qualifiés pour les réparer durablement, en collaborant avec les entreprises de distribution d'eau pour réduire les pertes et optimiser l'utilisation de l'eau.",
         "keywords": ["fuites d'eau", "distribution", "détection", "réparation", "eau"],
         "emoji": ""
@@ -218,7 +218,7 @@
       "description": "Logiciels de gestion médicale, notamment pour les cabinets de gynécologie.",
       "details": "M-Click Solution développe des logiciels destinés aux cabinets médicaux, avec un accent particulier sur la gynécologie. L’objectif est de numériser et d’optimiser les processus médicaux pour une meilleure gestion des consultations et des dossiers.",
       "founders": [],
-      "founded": "",
+      "founded": "Not mentioned",
       "keywords": ["e-santé", "gynécologie", "gestion médicale", "numérisation", "logiciel"],
       "emoji": "🩺"
     },
@@ -258,7 +258,7 @@
       "description": "Plateforme de QCM pour préparer les concours de résidanat en médecine.",
       "details": "Siamois QCM est une plateforme éducative qui aide les étudiants en médecine, pharmacie et médecine dentaire à se préparer efficacement au concours de résidanat grâce à des QCM personnalisés, des quiz, et un suivi des performances. Elle est utilisée par plus de 50 000 étudiants en Algérie.",
       "founders": [],
-      "founded": "",
+      "founded": "Not mentioned",
       "keywords": ["QCM", "résidanat", "médecine", "préparation examens", "éducation médicale"],
       "emoji": "📚"
     },
@@ -338,7 +338,7 @@
       "description": "Plateforme de paiement en ligne algérienne.",
       "details": "Alpay est une solution sécurisée de paiement en ligne pour les entreprises et les particuliers, facilitant les transactions numériques en Algérie.",
       "founders": [],
-      "founded": "",
+      "founded": "Not mentioned",
       "keywords": ["paiement", "plateforme", "en ligne", "sécurisé", "transactions"],
       "emoji": "💳"
     },
@@ -388,7 +388,7 @@
       "description": "Solutions d'emballage comestibles, saines et naturelles.",
       "details": "Packoffee propose des solutions d'emballage alimentaires innovantes et écologiques, visant à réduire les déchets dans l'industrie alimentaire.",
       "founders": [],
-      "founded": "",
+      "founded": "Not mentioned",
       "keywords": ["emballage", "comestible", "écologique", "réduction des déchets", "alimentaire"],
       "emoji": "🍔"
     },
@@ -398,7 +398,7 @@
       "description": "Fabrication d'emballages biodégradables et compostables.",
       "details": "Biovert Transformation fabrique des sacs et films biodégradables pour lutter contre la pollution plastique, contribuant ainsi à la préservation de l'environnement.",
       "founders": [],
-      "founded": "",
+      "founded": "Not mentioned",
       "keywords": ["emballage", "biodégradable", "compostable", "plastic", "environnement"],
       "emoji": "🌿"
     },
@@ -408,7 +408,7 @@
       "description": "Solutions de stockage réfrigéré alimenté par l’énergie solaire pour l'agriculture.",
       "details": "CoolFresh propose des solutions de stockage réfrigéré à énergie solaire pour aider les petits agriculteurs à conserver leurs produits, réduisant ainsi le gaspillage alimentaire.",
       "founders": [],
-      "founded": "",
+      "founded": "Not mentioned",
       "keywords": ["réfrigéré", "solaire", "stockage", "agriculture", "énergie renouvelable"],
       "emoji": "❄️"
     },
@@ -428,7 +428,7 @@
       "description": "Solutions d'efficacité énergétique et d'énergies renouvelables.",
       "details": "Smart Energy Solution se spécialise dans l'optimisation de la gestion de l'énergie dans différents secteurs, avec un focus sur l'énergie solaire et les systèmes d'automatisation.",
       "founders": [],
-      "founded": "",
+      "founded": "Not mentioned",
       "keywords": ["énergie", "renouvelable", "efficacité", "automatisation", "solaire"],
       "emoji": "⚡"
     },
@@ -448,7 +448,7 @@
       "description": "Plateforme d'apprentissage sociale pour rendre l'éducation plus accessible.",
       "details": "Coursella permet aux enseignants et aux étudiants de centraliser leurs cours, créer des discussions et partager des ressources pédagogiques.",
       "founders": [],
-      "founded": "",
+      "founded": "Not mentioned",
       "keywords": ["éducation", "apprentissage", "social", "plateforme", "cours"],
       "emoji": "📚"
     },
@@ -477,19 +477,19 @@
   export const Formations = [
     {
       "category": "Éducation",
-      "title": "Essential MBA Entrepreneurial et Startups - INSAG Business School",
+      "title": "MBA Essentiel – Entrepreneuriat & Startups (INSAG)",
       "description": "Programme complet sur la gestion de startups en partenariat avec l'International Business School of Washington.",
       "details": "Couvre marketing digital, finance pour startups, gestion de projet, et droit des affaires. Formation dédiée à la création et gestion de startups.",
       "keywords": ["MBA", "entrepreneuriat", "startup", "formation", "INSAG"],
-      "emoji": "🎓"
+      "webLink": "https://insag.edu.dz/entrepreneurial-et-startups/"
     },
     {
       "category": "Éducation",
-      "title": "Formations en gestion et entrepreneuriat - Universités Algériennes",
+      "title": "Formations en gestion & entrepreneuriat – Universités DZ",
       "description": "Formations académiques en gestion d'entreprise, innovation et entrepreneuriat.",
       "details": "Disponibles dans plusieurs universités algériennes, notamment l'université de Souk Ahras qui propose des cours en ligne pour porteurs de projets.",
       "keywords": ["université", "entrepreneuriat", "startup", "formation académique"],
-      "emoji": "🏫"
+      "webLink": "https://www.univ-soukahras.dz/fr/formations"
     },
     {
       "category": "Support aux Startups",
@@ -497,7 +497,7 @@
       "description": "Soutien gratuit aux porteurs de projets et startups via l'Agence Nationale de Promotion et de Développement des Parcs Technologiques.",
       "details": "Programme VIP (Virtual Incubation Program) offrant formations en ligne et accompagnement personnalisé.",
       "keywords": ["ANPT", "incubation", "startup", "formation en ligne"],
-      "emoji": "🚀"
+      "webLink": "https://anpt.dz/incubation"
     },
     {
       "category": "Support aux Startups",
@@ -505,7 +505,7 @@
       "description": "Ateliers et conseils personnalisés pour la création et la gestion d'entreprise.",
       "details": "Les CCI algériennes proposent des formations pratiques pour entrepreneurs débutants ou confirmés.",
       "keywords": ["CCI", "entrepreneuriat", "formation", "startup"],
-      "emoji": "🏢"
+      "webLink": "https://cci-mezghena.dz/cci-mezghena"
     },
     {
       "category": "Éducation",
@@ -513,7 +513,7 @@
       "description": "Cours dispensés par divers organismes privés algériens en marketing, finance, et gestion.",
       "details": "Plateforme Formation-dz.com regroupe plusieurs centres de formation spécialisés pour entrepreneurs.",
       "keywords": ["formation privée", "startup", "entrepreneuriat", "formation professionnelle"],
-      "emoji": "📚"
+      "webLink": "https://www.formation-dz.com/"
     },
     {
       "category": "e-commerce",
@@ -521,7 +521,7 @@
       "description": "École spécialisée dans l'e-commerce et l'import-export, axée sur l'entrepreneuriat pratique.",
       "details": "Propose des programmes adaptés aux besoins des entrepreneurs, avec une forte orientation pratique.",
       "keywords": ["e-commerce", "import-export", "EVACT", "entrepreneuriat", "startup"],
-      "emoji": "🛒"
+      "webLink": "https://www.evact.net/fr/"
     },
     {
       "category": "Éducation",
@@ -529,7 +529,7 @@
       "description": "Institut proposant des formations en gestion, marketing et communication pour futurs entrepreneurs.",
       "details": "Formations professionnelles adaptées aux besoins des startups, avec une approche pratique et spécialisée.",
       "keywords": ["IFTGC", "formation", "gestion", "marketing", "startup"],
-      "emoji": "📈"
+      "webLink": "https://iftgc.dz"
     },
     {
       "category": "Éducation",
@@ -537,7 +537,7 @@
       "description": "Accès à des cours d'entrepreneuriat et de gestion de startups via Coursera, edX, et Udemy.",
       "details": "Formations flexibles et accessibles pour apprendre à son rythme et renforcer ses compétences en startup.",
       "keywords": ["Coursera", "edX", "Udemy", "formation en ligne", "entrepreneuriat"],
-      "emoji": "💻"
+      "webLink": "https://www.coursera.org"
     },
     {
       "category": "Éducation",
@@ -545,6 +545,6 @@
       "description": "Répertoire des organismes de formation en Algérie pour startupers.",
       "details": "Liste d'organismes offrant des cours en gestion d'entreprise, marketing, finance, et entrepreneuriat.",
       "keywords": ["formation", "startup", "Formation-dz.com", "éducation"],
-      "emoji": "🔎"
+      "webLink": "https://www.formation-dz.com/"
     }
   ]
