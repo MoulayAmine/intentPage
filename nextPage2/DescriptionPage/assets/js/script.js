@@ -22,9 +22,12 @@ const formation = Formations.find(s => s.title === formationTitle);
 if (formation) {
   document.querySelector('.startup-title').textContent = formation.title;
   document.querySelector('.startup-details').textContent = formation.details;
+  document.querySelector('.startup-description').innerHTML=`                        
+  <strong>${formation.description}</strong>
+  `
   document.querySelector('.startup-founded').innerHTML=`                        
                         <ion-icon name="link-outline" class="founded-icon"></ion-icon>
-                        <strong>Web link:</strong><a href="${formation.webLink}">${formation.webLink}</a>
+                        <strong>Web link:</strong><a href="${formation.webLink}">Click Here</a>
                         `
  
 } else {

@@ -21,6 +21,9 @@ const startup = StartUp_Examples.find(s => s.title === startupTitle);
 if (startup) {
   document.querySelector('.startup-title').textContent = startup.title;
   document.querySelector('.startup-details').textContent = startup.details;
+  document.querySelector('.startup-description').innerHTML=`                        
+  <strong>${startup.description}</strong>
+  `
   document.querySelector('.startup-founded').innerHTML=`                        
   <ion-icon name="calendar-outline" class="founded-icon"></ion-icon>
   <strong>Founded:</strong>${startup.founded}
