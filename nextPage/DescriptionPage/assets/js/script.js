@@ -30,3 +30,11 @@ if (startup) {
 } else {
   document.body.innerHTML = "<p>Startup not found.</p>";
 }
+
+document.querySelector('.nav__icon').addEventListener('touchstart', function () {
+  window.history.back();
+});
+
+document.querySelector('.nav__icon').addEventListener('click', function () {
+  window.history.back();
+});
