@@ -30,7 +30,7 @@ if (startup) {
   `
   if(startup.founders.length > 0){
     startup.founders.forEach(founder => {
-      document.querySelector('.startup-founders').innerHTML += `  <div class="founder-container">
+      document.querySelector('.startup-founders-container').innerHTML += `  <div class="founder-container">
                               <img src="assets/img/${founder}.jpg" alt="${founder}" class="founder-image">
                               <p class="startup-founders">${founder}</p>
                           </div>`

@@ -268,13 +268,17 @@ img {
   gap: 0.5rem;
   margin-top: 1rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  flex-wrap: wrap;
 }
 .startup-founded a {
-  padding-left: 3rem;
+  min-width: 0;
+  flex-shrink: 1;
 }
 
 .startup-founded strong{
   text-indent: 0;
+  min-width: 0;
+  flex-shrink: 1;
 }
 
 .founded-icon {
