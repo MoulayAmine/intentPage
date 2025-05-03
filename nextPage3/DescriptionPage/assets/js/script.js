@@ -36,7 +36,7 @@ if (startup) {
                           </div>`
     })
   }else{
-    document.querySelector('.startup-founders').innerHTML += `<p class="startup-founded">
+    document.querySelector('.startup-founders-container').innerHTML += `<p class="startup-founded">
                         <strong>Founders not mentioned.</strong>
                       </p>`
   }

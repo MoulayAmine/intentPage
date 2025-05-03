@@ -97,6 +97,9 @@ img {
   color: var(--second-color);
   /*Aparecer menu*/ }
   @media screen and (max-width: 768px) {
+    .overlay-container {
+      padding-bottom: 4rem;
+    }
     .nav.bd-grid {
       flex-direction: row !important;
     }
@@ -187,7 +190,8 @@ img {
   left: 0;
   margin: 48px 0px;
   width: 100vw;
-  height: 100vh;
+  height: auto;
+  max-height: 100vh;
   background: transparent;
   display: flex;
   justify-content: center;
