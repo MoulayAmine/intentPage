@@ -126,9 +126,9 @@ function loadStartupsByCategory(category) {
     });
 
     document.querySelectorAll('.card-nxt').forEach(card => {
-      card.addEventListener('touchstart', function (e) {
+      card.addEventListener('touchstart', function () {
         
-        e.preventDefault();
+        
         
         const category = card.getAttribute('data-category');
         const colors = {
@@ -165,44 +165,68 @@ function loadStartupsByCategory(category) {
     });
     
     document.querySelectorAll('.card-nxt').forEach(card => {
-      card.addEventListener('touchstart', () => {
-        const title = card.getAttribute('data-title');
-        window.location.href = `./DescriptionPage/index.html?title=${encodeURIComponent(title)}`;
+      let pressTimer;
+      let moved = false;
+
+      card.addEventListener('touchstart', function (e) {
+        moved = false;
+
+        // Start long press timer
+        pressTimer = setTimeout(() => {
+          if (!moved) {
+            const title = card.getAttribute('data-title');
+            window.location.href = `./DescriptionPage/index.html?title=${encodeURIComponent(title)}`;
+          }
+        }, 600);
+      }, { passive: true });
+
+      card.addEventListener('touchmove', function () {
+        // If the finger moves, cancel the long press
+        moved = true;
+        clearTimeout(pressTimer);
+      }, { passive: true });
+
+      card.addEventListener('touchend', function () {
+        clearTimeout(pressTimer);
       });
     });
   }
 
-  document.querySelectorAll('.card').forEach(card => {
-    card.addEventListener('touchstart', function (e) {
-      
-      e.preventDefault();
-      
-      const category = card.getAttribute('data-category');
-      const colors = {
-        'Agriculture': '#476930',
-        'Technologie': '#0a84ff',
-        'e-commerce': '#2A9D8F',
-        'Environnement': '#A26769',
-        'Éducation': '#F9C74F',
-        'Médical': '#E63946',
-        'Finance': '#7851A9',
-        'Transport': '#E97451',
-        'Industries': '#2C3539',
-        'Énergie et Environnement': '#43B3AE',
-        'Support aux Startups' : '#005B5D',
-        'Santé et bien être' : '#E63946'
-      };
-    
+
+document.querySelectorAll('.card').forEach(card => {
+  let longPressTimer;
+
+  card.addEventListener('touchstart', function () {
+    const category = card.getAttribute('data-category');
+    const colors = {
+      'Agriculture': '#476930',
+      'Technologie': '#0a84ff',
+      'e-commerce': '#2A9D8F',
+      'Environnement': '#A26769',
+      'Éducation': '#F9C74F',
+      'Médical': '#E63946',
+      'Finance': '#7851A9',
+      'Transport': '#E97451',
+      'Industries': '#2C3539',
+      'Énergie et Environnement': '#43B3AE',
+      'Support aux Startups': '#005B5D',
+      'Santé et bien être': '#E63946'
+    };
+
+    longPressTimer = setTimeout(() => {
       card.style.setProperty('--category-color', colors[category] || '#000');
       card.classList.add('active');
-    
-      requestAnimationFrame(() => {
-        setTimeout(() => {
-          loadStartupsByCategory(category);
-        }, 300);
-      });
+      loadStartupsByCategory(category);
+    }, 600);
+  }, { passive: true });
 
-    }, { passive: false }); 
+  card.addEventListener('touchend', function () {
+    clearTimeout(longPressTimer); // Cancel if released early
   });
+
+  card.addEventListener('touchmove', function () {
+    clearTimeout(longPressTimer); // Cancel if finger moves
+  });
+});
 
  
