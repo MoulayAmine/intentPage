@@ -171,11 +171,8 @@ h1 {
 
   .split {
     padding: 1.5rem;
+    min-height: 25%;
   }
-
-  .decree{
-  margin-bottom: 8rem;
-}
 }
 
 
