@@ -88,21 +88,6 @@ h1 {
   transition: all var(--speed) ease-in-out;
 }
 
-.split.left {
-  background: url('ps.jpg') no-repeat center center/cover;
-}
-
-.split.center {
-  background: url('switch.jpg') no-repeat center center/cover;
-}
-
-.split.right {
-  background: url('xbox.jpg') no-repeat center center/cover;
-}
-
-.split.decree {
-  background: url('decree.jpg') no-repeat center center/cover; /* Provide your image */
-}
 
 .split::before {
   content: '';
