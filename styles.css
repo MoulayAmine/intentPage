@@ -17,10 +17,8 @@
 body {
   font-family: 'Roboto', sans-serif;
   height: 100vh;
+  overflow: hidden;
   margin: 0;
-  overflow-x: hidden;
-  overflow-y: auto;
-  height: auto;
 }
 
 h1 {
@@ -39,12 +37,10 @@ h1 {
   text-decoration: none;
   color: #fff;
   border: #fff solid 0.2rem;
-  font-size: 0.7rem;
+  font-size: 1rem;
   font-weight: bold;
   text-transform: uppercase;
-  width: 90%;
-  max-width: 15rem;
-  box-sizing: border-box;
+  width: 15rem;
   padding: 1.5rem;
   overflow: hidden;
   z-index: 1000;
@@ -72,9 +68,10 @@ h1 {
 
 .container {
   display: flex;
+  text-align: center;
   flex-direction: column;
   width: 100%;
-  min-height: 100vh;
+  height: 100%;
   background: #333;
 }
 
@@ -89,7 +86,6 @@ h1 {
   height: 100%;
   overflow: hidden;
   transition: all var(--speed) ease-in-out;
-  padding: 2rem;
 }
 
 
@@ -160,21 +156,21 @@ h1 {
 }
 
 @media (max-width: 800px) {
+  body{
+  overflow-x: hidden;
+  overflow-y: auto;
+  }
   h1 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    top: 30%;
   }
 
   .btn {
-    width: 50%;
-    max-width: 10rem;
+    font-size: 0.9rem;
     padding: 1.2rem;
-  }
-
-  .split {
-    padding: 1.5rem;
+    width: 12rem;
   }
 }
-
 
 .btn .ripple {
   position: absolute;
