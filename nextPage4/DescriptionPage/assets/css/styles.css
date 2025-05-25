@@ -208,7 +208,7 @@ img {
   border: 1px solid rgba(255, 255, 255, 0.25);
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
   border-radius: 24px;
-  padding: 2rem;
+  padding: 1rem;
   max-width: 700px;
   max-height: 90vh;
   overflow-y: auto;
@@ -258,6 +258,7 @@ img {
 }
 
 /* Founders and founded line */
+
 .startup-description,
 .startup-founded {
   background: rgba(255, 255, 255, 0.1);
@@ -272,17 +273,36 @@ img {
   gap: 0.5rem;
   margin-top: 1rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-  flex-wrap: wrap;
-}
-.startup-founded a {
-  min-width: 0;
-  flex-shrink: 1;
 }
 
-.startup-founded strong{
-  text-indent: 0;
-  min-width: 0;
-  flex-shrink: 1;
+
+.startup-wrapper{
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  font-size: clamp(1rem, 3.5vw, 1.1rem);
+  color: #f8f8f8;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  height: 3rem;
+  transition: height 0.3s ease;
+}
+
+.startup-wrapper:hover {
+  height: 7rem;
+}
+
+.startup-wrapper:hover .startup-founders{
+  visibility: visible;
+}
+
+.startup-founders{
+  visibility: hidden;
+  transition: visibility 0s ease;
 }
 
 .founded-icon {
@@ -290,7 +310,7 @@ img {
   color: #00d1b2;
 }
 
-.founder-container {
+.StartUp-container {
   display: flex;
   text-align: center;
   flex-direction: row;
@@ -298,23 +318,36 @@ img {
   justify-content: left;
   background: rgba(0, 0, 0, 0.2); /* A darker background for each founder container */
   padding: 0.3rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  border-radius: 50px;
+  margin-bottom: 0.5rem;
+  border-radius: 8px;
   border-left: 4px solid #00d1b2;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  flex-wrap: wrap;
+  width: 100%;
 }
 
+.StartUp-container p{
+  margin: 0.5rem 0;
+  font-size: clamp(0.85rem, 2.5vw, 1rem); 
+  color: #e0e0e0;
+  font-weight: 600;
+  min-width: 0;
+  flex-shrink: 1;
+}
 
+.startup-founders{
+  text-indent: 0rem;
+  padding-left: 1rem;
+  margin-top: 0.5rem;
+  font-weight: normal;
+}
 
-.founder-image {
-  margin-left: 0.1rem;
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+strong {
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  animation: fadeIn 0.8s ease-out;
 }
 
 @keyframes fadeIn {

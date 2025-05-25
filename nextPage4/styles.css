@@ -31,7 +31,7 @@ img {
     max-width: 100%;
   }
   
-  .card-nxt,
+
   .card {
     background-color: #fff;
     transition: transform 0.3s ease, border 0.3s ease;
@@ -137,55 +137,13 @@ img {
     font-weight: 700;
     font-style: normal;
   }
-  
-  .card-nxt[data-category="Agriculture"]:hover,
-  .card[data-category="Agriculture"]:hover {
-    border-color: #476930;
-  }
 
-  .card-nxt[data-category="Technologie"]:hover,
-  .card[data-category="Technologie"]:hover {
-    border-color: #0a84ff;
-  }
-
-  .card-nxt[data-category="e-commerce"]:hover,
-  .card[data-category="e-commerce"]:hover {
-    border-color: #2A9D8F;
-  }
-
-  .card-nxt[data-category="Environnement"]:hover,
-  .card[data-category="Environnement"]:hover {
-    border-color: #A26769;
-  }
-
-  .card-nxt[data-category="Éducation"]:hover,
-  .card[data-category="Éducation"]:hover {
-    border-color: #F9C74F;
-  }
-
-  .card-nxt[data-category="Médical"]:hover,
-  .card[data-category="Médical"]:hover {
-    border-color: #E63946;
-  }
-
-  .card-nxt[data-category="Finance"]:hover,
-  .card[data-category="Finance"]:hover {
-    border-color: #7851A9;
-  }
-
-  .card-nxt[data-category="Transport"]:hover,
-  .card[data-category="Transport"]:hover {
-    border-color: #E97451;
-  }
-
-  .card-nxt[data-category="Industries"]:hover,
-  .card[data-category="Industries"]:hover {
-    border-color: #2C3539;
-  }
-
-  .card-nxt[data-category="Énergie et Environnement"]:hover,
-  .card[data-category="Énergie et Environnement"]:hover {
-    border-color: #43B3AE;
+  .card[data-category="Université d’Oran 2"]:hover,
+  .card[data-category="Université de M’Sila"]:hover,
+  .card[data-category="Université de Blida 2"]:hover,
+  .card[data-category="Université d’El Oued"]:hover,
+  .card[data-category="Université de Sétif 1"]:hover {
+    border-color: #002147;
   }
 
   .card:hover {
@@ -200,20 +158,19 @@ img {
       row-gap: 100px;          
     }
   
-    .card-nxt,
     .card {
       margin: 0 auto;
       width: 100%;
       max-width: 95%;
     }
   
-    .card-header-nxt,
+
     .card-header {
       height: auto;
       padding: 15px;
     }
   
-    .card-header-nxt img,
+  
     .card-header img {
       width: 100%;              
       height: auto;             
@@ -237,34 +194,8 @@ img {
   }
   
 
-  .card-nxt.active,
   .card.active {
     transform: scale(1.03);
     border-color: var(--category-color);
     transition: transform 0.3s ease, border 0.3s ease;
   }
-  
-  
-  .card-header-nxt {
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-    height: 200px;
-  }
-  
-  .card-header-nxt img {
-    object-fit: contain;
-    height: 100%;
-    width: 70%;
-    padding: 1.30rem;
-  }
-  
-/*
-  .card{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-*/

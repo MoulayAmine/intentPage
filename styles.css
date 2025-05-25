@@ -6,6 +6,7 @@
   --left-btn-hover-color: rgba(28, 122, 28, 1);
   --center-btn-hover-color: rgba(28, 122, 28, 1);
   --right-btn-hover-color: rgba(28, 122, 28, 1);
+  --decree-btn-hover-color: rgba(28, 122, 28, 1);
   --speed: 1000ms;
 }
 
@@ -60,6 +61,11 @@ h1 {
   border-color: var(--right-btn-hover-color);
 }
 
+.split.decree .btn:hover {
+  background-color: var(--decree-btn-hover-color);
+  border-color: var(--decree-btn-hover-color);
+}
+
 .container {
   display: flex;
   text-align: center;
@@ -77,8 +83,7 @@ h1 {
   text-align: center;
   position: relative;
   flex: 1;
-  height: auto;
-  width: 100%;
+  height: 100%;
   overflow: hidden;
   transition: all var(--speed) ease-in-out;
 }
@@ -95,6 +100,10 @@ h1 {
   background: url('xbox.jpg') no-repeat center center/cover;
 }
 
+.split.decree {
+  background: url('decree.jpg') no-repeat center center/cover; /* Provide your image */
+}
+
 .split::before {
   content: '';
   position: absolute;
@@ -107,17 +116,20 @@ h1 {
 
 .split.left::before,
 .split.center::before,
-.split.right::before {
+.split.right::before,
+.split.decree::before {
   background-color: var(--default-bg-color);
   transition: background-color var(--speed) ease-in-out;
 }
 
+/* Hover logic with 4 sections */
 .container.hover-left .left {
   flex: 2;
 }
 
 .container.hover-left .center,
-.container.hover-left .right {
+.container.hover-left .right,
+.container.hover-left .decree {
   flex: 1;
 }
 
@@ -126,7 +138,8 @@ h1 {
 }
 
 .container.hover-center .left,
-.container.hover-center .right {
+.container.hover-center .right,
+.container.hover-center .decree {
   flex: 1;
 }
 
@@ -135,16 +148,27 @@ h1 {
 }
 
 .container.hover-right .left,
-.container.hover-right .center {
+.container.hover-right .center,
+.container.hover-right .decree {
+  flex: 1;
+}
+
+.container.hover-decree .decree {
+  flex: 2;
+}
+
+.container.hover-decree .left,
+.container.hover-decree .center,
+.container.hover-decree .right {
   flex: 1;
 }
 
 .container.hover-left .left::before,
 .container.hover-center .center::before,
-.container.hover-right .right::before {
+.container.hover-right .right::before,
+.container.hover-decree .decree::before {
   background-color: var(--hover-bg-color);
 }
-
 
 @media (max-width: 800px) {
   h1 {
@@ -157,8 +181,6 @@ h1 {
     width: 12rem;
   }
 }
-
-
 
 .btn .ripple {
   position: absolute;

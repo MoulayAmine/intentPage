@@ -290,6 +290,7 @@ img {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border-radius: 50px;
+  border-left: 4px solid #00d1b2;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     flex-wrap: wrap;
   
