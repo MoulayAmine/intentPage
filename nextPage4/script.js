@@ -95,4 +95,26 @@ document.querySelectorAll('.card').forEach(card => {
   });
 });
 
- 
+ /*
+ import { db } from './firebaseConfig.js';
+import { collection, getDocs } from 'firebase/firestore';
+
+async function fetchDecreeStartups() {
+  const collectionRef = collection(db, 'Decree_1275_StartUps');
+
+  try {
+    const snapshot = await getDocs(collectionRef);
+    const dataArray = snapshot.docs.map(doc => ({
+      id: doc.id,
+      ...doc.data()
+    }));
+
+    console.log('✅ Data fetched from Firestore:', dataArray);
+    return dataArray;
+
+  } catch (e) {
+    console.error('❌ Error fetching documents:', e);
+    return [];
+  }
+}
+ */
