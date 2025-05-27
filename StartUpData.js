@@ -608,3 +608,132 @@
     ]
   }
 ]
+
+
+export const faq = [
+    {
+      "question": "Quelles formations en entrepreneuriat offre l’université ?",
+      "answer": {
+        "titre": "Formations en entrepreneuriat – USTHB",
+        "description": "L’USTHB propose des formations et un accompagnement pour aider les étudiants à transformer leurs idées en startups.",
+        "formations": [
+          {
+            "nom": "Centre de Développement de l’Entrepreneuriat (CDE)",
+            "modules": [
+              "Innovation et esprit entrepreneurial",
+              "Modèles économiques et étude de marché",
+              "Stratégies marketing et levée de fonds",
+              "Gestion de projets et aspects juridiques",
+              "Propriété intellectuelle et gestion financière"
+            ],
+            "site": "https://cde.usthb.dz/index.php/se-former/"
+          }
+        ],
+        "soutien_startups": [
+          {
+            "programme": "PFE Start-up",
+            "description": "Aide les étudiants (L3/M2) à créer une startup avec l’aide de plusieurs structures.",
+            "partenaires": ["CDE", "Tech-Innov", "CATI", "BLEU"],
+            "source": "https://fbiol.usthb.dz/journee-sensibilisation-ecosysteme-start-up-fsb/"
+          },
+          {
+            "programme": "Incubateur Digital Business",
+            "description": "Accompagnement de l’idéation à la mise sur le marché.",
+            "lien": "https://www.usthb.dz/news/digital-business-incubator"
+          },
+          {
+            "programme": "Incubateur TIC avec Algérie Télécom",
+            "description": "Incubateur lancé en 2024 pour booster l’entrepreneuriat dans les TIC.",
+            "lien": "https://www.aps.dz/sante-science-technologie/165711"
+          }
+        ],
+        "evenements": [
+          {
+            "nom": "Semaine Mondiale de l’Entrepreneuriat",
+            "description": "Ateliers, panels, expositions",
+            "lien": "https://fbiol.usthb.dz/semaine-mondiale-de-lentrepreneuriat/"
+          },
+          {
+            "nom": "Caravane de l’Innovation",
+            "description": "Présentations sur la création d’entreprise",
+            "lien": "https://fst.usthb.dz/caravane-de-linnovation/"
+          },
+          {
+            "nom": "Ateliers Erasmus+",
+            "description": "Atelier sur l’écosystème entrepreneurial universitaire",
+            "lien": "https://erasmusplus.dz/news/national-erasmus-workshop-on-the-entrepreneurship-ecosystem-in-heis/"
+          }
+        ],
+        "financement": [
+          {
+            "nom": "Formation ASF",
+            "description": "Sur les mécanismes de financement et plateforme ASF",
+            "lien": "https://ecotimesdz.com/startups-lasf-organise-une-formation-a-lusthb/"
+          },
+          {
+            "nom": "Domiciliation de startups",
+            "description": "Cinq startups et microentreprises certifiées à l’USTHB en 2024",
+            "lien": "https://www.aps.dz/sante-science-technologie/179528"
+          }
+        ],
+        "clubs_etudiants": [
+          {
+            "nom": "Micro Club",
+            "domaines": ["Programmation", "Hackathons"]
+          },
+          {
+            "nom": "Celec Club",
+            "domaines": ["Électronique", "Robotique"]
+          }
+        ],
+        "participation": {
+          "moyens": [
+            "Visiter le site du CDE",
+            "Suivre l’USTHB sur les réseaux",
+            "Contacter les centres d’entrepreneuriat"
+          ]
+        },
+        "prochains_evenements": [
+          {
+            "nom": "Innovation Day 2025",
+            "description": "Ateliers sur le design thinking, pitch, etc.",
+            "lien": "https://www.linkedin.com/posts/chaima-bouguerra_innovationday2025-djazpora-entrepreneurship-activity-7299763558504976384-X-eC"
+          },
+          {
+            "nom": "Semaine de l’Entrepreneuriat",
+            "description": "Activités prévues vers novembre",
+            "lien": "https://www.instagram.com/reel/DDAbWriNmxC"
+          },
+          {
+            "nom": "Ateliers de clubs étudiants",
+            "description": "Organisés régulièrement selon le calendrier universitaire",
+            "lien": "https://www.instagram.com/p/C3TN47Zt6I8/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "Quand auront lieu les prochaines formations ?",
+      "answer": {
+        "titre": "Prochains événements",
+        "description": "Aucune date précise n’est annoncée pour l’instant, mais plusieurs événements sont attendus prochainement.",
+        "evenements_a_venir": [
+          {
+            "nom": "Innovation Day 2025",
+            "description": "Événement avec ateliers Djazpora, édition future possible.",
+            "lien": "https://www.linkedin.com/posts/chaima-bouguerra_innovationday2025-djazpora-entrepreneurship-activity-7299763558504976384-X-eC"
+          },
+          {
+            "nom": "Semaine de l’Entrepreneuriat",
+            "description": "Généralement organisée en novembre chaque année.",
+            "lien": "https://www.instagram.com/reel/DDAbWriNmxC"
+          },
+          {
+            "nom": "Ateliers des clubs étudiants",
+            "description": "Organisés régulièrement durant l’année universitaire.",
+            "lien": "https://www.instagram.com/p/C3TN47Zt6I8/"
+          }
+        ]
+      }
+    }
+  ]
